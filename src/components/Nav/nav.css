@@ -1,0 +1,26 @@
+nav {
+  align-items: center;
+  background-color: #fff;
+  color: var(--font-gray);
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 16px;
+}
+.nav__info-user {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+}
+.nav__info-user p {
+  font-weight: 500;
+}
+.coins-container {
+  align-items: center;
+  background-color: var(--bg-gray);
+  border-radius: 25px;
+  display: flex;
+  gap: 6px;
+  justify-content: space-between;
+  padding: 6px 12px;
+}
