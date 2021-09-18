@@ -5,7 +5,7 @@ import coin from "../../assets/icons/coin.svg";
 import "./nav.css";
 export const Nav = () => {
   return (
-    <nav>
+    <nav className="navbar">
       <div className="nav__icon">
         <img src={logo} alt="Logo de Aerolab" />
       </div>
