@@ -1,0 +1,15 @@
+header {
+  align-items: flex-end;
+  background-image: url("../../assets/header.png");
+  background-position: 80% 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 412px;
+  width: 100%;
+}
+header h2 {
+  color: var(--font-white);
+  font-size: 64px;
+  margin-bottom: 48px;
+}
