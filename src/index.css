@@ -15,22 +15,65 @@ body {
   background-color: var(--bg-white);
   font-size: 1.5rem;
 }
-
+button {
+  all: unset;
+}
+.btn {
+  padding: 4px 18px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.btn-primary:hover,
+.btn-secondary:hover {
+  filter: brightness(1.1);
+}
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--font-white);
+}
+.btn-secondary {
+  background-color: var(--bg-white);
+  color: var(--font-gray);
+}
+.btn-gray {
+  background-color: var(--bg-gray);
+  color: var(--font-gray);
+}
+.btn-gray:hover {
+  filter: brightness(0.9);
+}
+.btn-pagination {
+  display: flex;
+  cursor: pointer;
+}
+.btn-pagination:hover {
+  filter: brightness(0.9);
+}
 .container {
   padding: 0 5rem;
 }
 
 @media screen and (max-width: 1280px) {
+  body {
+    font-size: 1.4rem;
+  }
   .container {
     padding: 0 2.5rem;
   }
 }
 @media screen and (max-width: 900px) {
+  body {
+    font-size: 1.3rem;
+  }
   .container {
     padding: 0 1.5rem;
   }
 }
 @media screen and (max-width: 600px) {
+  body {
+    font-size: 1.2rem;
+  }
   .container {
     padding: 0 0.5rem;
   }

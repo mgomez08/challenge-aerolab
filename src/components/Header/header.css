@@ -10,6 +10,17 @@ header {
 }
 header h2 {
   color: var(--font-white);
-  font-size: 64px;
+  font-size: 4rem;
   margin-bottom: 48px;
+}
+
+@media screen and (max-width: 900px) {
+  header h2 {
+    font-size: 3.5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  header h2 {
+    font-size: 3rem;
+  }
 }

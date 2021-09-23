@@ -1,12 +1,18 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
+import { Header } from "./components/Header/Header";
+import { Nav } from "./components/Nav/Nav";
+import { ProductsSection } from "./components/Products/ProductsSection";
 
 function App() {
-
   return (
-    <div className="App">
-    <h1>Challenge Aerolab</h1>
-    </div>
-  )
+    <>
+      <Nav />
+      <Header />
+      <main>
+        <ProductsSection />
+      </main>
+    </>
+  );
 }
 
-export default App
+export default App;
